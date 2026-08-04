@@ -57,7 +57,18 @@
             Ron é divertido, leal e muito corajoso. Mesmo sentindo medo em várias situações, ele nunca abandona seus amigos e está sempre disposto a ajudá-los. Durante a luta contra Voldemort, demonstra que a verdadeira coragem não é não ter medo, mas enfrentar os desafios para proteger quem ama.
 
             Ao longo da série, Ron amadurece, supera suas inseguranças e prova que sua amizade, seu bom humor e sua coragem são essenciais para a vitória do trio.</p>
+
+        <button>❤ <spam>0</spam></button>
     </main>
 
 </body>
+<script>
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado (){
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+    }
+
+</script>
 </html>
